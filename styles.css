@@ -1,20 +1,46 @@
 
 /* Your CSS Code here. */
-.container{
-	display: grid;
-	 width: 100%;
-  height: 250px;
-	Border:  5px solid rgb(4, 255, 4) ;
-	background-color:rgb(41, 0, 0);
-  grid-template-areas: 
-	  "head hea hea"
-      ". main  main"
-      ".  foot foot";
-	 grid-template-rows: 50px 1fr 30px;
-  grid-template-columns: 150px 1fr 1fr;
-}
-.item1 > header {
-  grid-area: head;
-  background-color: #8ca0ff;
+*{
+    margin: 0;
+    padding: 0;
 }
 
+.container{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 100px 1fr 500px;
+    grid-template-rows: 100px 100px 1fr;
+
+    grid-template-areas: 
+    "titl title title"
+    "nav . side"
+    "footer . foote"
+    ;
+	grid-column-gap: 66px;
+	grid-row-gap:29px;
+}
+.item{
+    background-color: aqua;
+    border: 2px solid;
+	
+}
+
+.item1{
+    grid-area: titl;
+}
+
+.item2{
+    grid-area: title;
+}
+.item3{
+    grid-area: nav;
+}
+.item4{
+    grid-area: side;
+}
+.item5{
+    grid-area: footer;
+}
+.item6{
+    grid-area: foote;
+}
