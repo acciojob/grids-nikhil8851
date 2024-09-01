@@ -1,42 +1,41 @@
-
 .container {
-    width: 600px;
-    border: 5px solid rgb(4, 255, 4);
-    background-color: rgb(41, 0, 0);
-  }
-  
-  .row {
-    border: 5px solid rgb(255, 188, 188);
-    height: 200px;
-  }
-  
-  .item1 {
-    border: 2px dotted rgb(38, 38, 43);
-    background-color: teal;
-  }
-  
-  .item2 {
-    border: 2px dotted rgb(38, 38, 43);
-    background-color: thistle;
-  }
-  
-  .item3 {
-    border: 2px dotted rgb(38, 38, 43);
-    background-color: tomato;
-  }
-  
-  .item4 {
-    border: 2px dotted rgb(38, 38, 43);
-    background-color: turquoise;
-  }
-  
-  .item5 {
-    border: 2px dotted rgb(38, 38, 43);
-    background-color: violet;
-  }
-  
-  .item6 {
-    border: 2px dotted rgb(38, 38, 43);
-    background-color: yellowgreen;
-  }
-  
+    background-color: pink;
+    margin: 10px;
+    padding: 10px;
+    border: 10px solid green;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.col-sm-6, .col-md-4, .col-md-8 {
+    border: 3px dotted;
+    padding: 20px;
+    text-align: center;
+}
+
+.r1c1 {
+    background-color: blue;
+}
+
+.r1c2 {
+    background-color: green;
+}
+
+.r2c1 {
+    background-color: orange;
+}
+
+.r2c2 {
+    background-color: lightcyan;
+}
+
+.r3c1 {
+    background-color: chocolate;
+}
+
+.r3c2 {
+    background-color: lightgreen;
+}
